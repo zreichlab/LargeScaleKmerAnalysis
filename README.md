@@ -1,8 +1,8 @@
 # LargeScaleKmerAnalysis
 Scripts for the paper: "Large-scale k-mer-based analysis of the informational properties of genomes, comparative genomics and taxonomy"
 
-Data set file: 'genome_data_table.csv'
-This table contains the genome metadata, fasta download links (retrieved from KEGG Complete Genomes database: https://www.genome.jp/kegg/catalog/org_list.html), taxonomical information retrieved from NCBI taxonomy NCBI taxonomy database (https://www.ncbi.nlm.nih.gov/taxonomy) via the myTAI R package (https://cran.r-project.org/web/packages/myTAI/index.html), and GC content (seqtk https://github.com/lh3/seqtk).
+Data set file: 'genome_data_table.csv'  
+This table contains the genome metadata, fasta download links (retrieved from [KEGG Complete Genomes database](https://www.genome.jp/kegg/catalog/org_list.html)), taxonomical information retrieved from NCBI taxonomy [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) database  via the [myTAI](https://cran.r-project.org/web/packages/myTAI/index.html) R package, and GC content ([seqtk](https://github.com/lh3/seqtk)).
 
 The package [KMC](http://sun.aei.polsl.pl/kmc) \[K-Mer Counter (KMC) ver. 3.1.0\] was used for this project - it contains tools for efficient k-mer counting and k-mer comparisons. 
 
