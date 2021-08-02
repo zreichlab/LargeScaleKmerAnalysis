@@ -4,6 +4,9 @@ Scripts for the paper: "Large-scale k-mer-based analysis of the informational pr
 Data set file: 'genome_data_table.csv'  
 This table contains the genome metadata, fasta download links (retrieved from [KEGG Complete Genomes database](https://www.genome.jp/kegg/catalog/org_list.html)), taxonomical information retrieved from NCBI taxonomy [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) database  via the [myTAI](https://cran.r-project.org/web/packages/myTAI/index.html) R package, and GC content ([seqtk](https://github.com/lh3/seqtk)).
 
+data folder also includes pairwise distance matrices to create trees and reference tree for comparison.
+scripts for hierarchical clustering, tree tanglegram comparison and general framework for kmer counting and comparisons (to be adapted to your cluster).
+
 The package [KMC](http://sun.aei.polsl.pl/kmc) \[K-Mer Counter (KMC) ver. 3.1.0\] was used for this project - it contains tools for efficient k-mer counting and k-mer comparisons. 
 
 # Installing KMC
