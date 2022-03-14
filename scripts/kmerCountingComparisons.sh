@@ -43,7 +43,7 @@ kmc_tools info $PAIRWISEDIR/"$ID1"-"ID2" > $PAIRWISEDIR/"$ID1"-"ID2".txt;
 # writing IDs first
 # i.e. 'echo "$ID1"-"ID2"; kmc_tools info $PAIRWISEDIR/"$ID1"-"ID2;' 
 # then read this metadata post process to a table of unique k-mers per comparison
-# jaccard similarity = 
+# jaccard similarity = intersection(A,B) / union(A,B) = (cardinality(A) + cardinality(B) - union(A, B)) / union(A,B)
 
 #To save space can remove k-mer databases after metadata is written
 rm $PAIRWISEDIR/"$ID1"-"ID2".kmc*;
